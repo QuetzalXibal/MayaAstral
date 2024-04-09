@@ -1,0 +1,83 @@
+<%-- 
+    Document   : Foro
+    Created on : 30/04/2020, 06:49:18 PM
+    Author     : Nadia
+--%>
+
+<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-with, initial-scale=1">
+        <link href="css/foro.css" rel="stylesheet" type="text/css"/>
+        <link href="css/iconos.css" rel="stylesheet" type="text/css"/>
+        <title>Coments</title>
+    </head>
+    <body>
+        
+          <div class="comments-container">
+              <a href="MenuDesplegable.jsp"><img src="Imagenes/Logo4.0.png" width="200" alt="" alt="Logo de FAzt"/></a>
+              <h1 style="color:#ffffff";>Comentarios</h1>
+              
+            <ul id="comments-list" class="comments-list">
+                <li>
+                    <div class="comment-main-level">
+                        <div class="comments-avatar"><img src="Imagenes/KingAzteca.png" alt=""/></div>
+                        <div class="comment-box">
+                            <div class="comment-head">
+                                <h6 class="comment-name by-author"><a>AztecaFlow</a></h6>
+                                <span>20 minutes ago</span>
+                                <i class="fa fa-reply"></i>
+                                <i class="fa fa-heart"></i>
+                            </div>  
+                            <div class="comment-content">
+                               Esta increible el juego deberian seguir metiendole mas presupuesto, yo los apoyo.                                
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="comments-list reply-list">
+                        <li>
+                    
+                        <div class="comments-avatar"><img src="Imagenes/KingEgipcio.png" alt=""/></div>
+                        <div class="comment-box">
+                            <div class="comment-head">
+                                <h6 class="comment-name"><a>EgipcioFlow</a></h6>
+                                <span>10 minutes ago</span>
+                                <i class="fa fa-reply"></i>
+                                <i class="fa fa-heart"></i>
+                            </div>  
+                            <div class="comment-content">
+                               tiene mucha razon esta increible el juego <3                            
+                            </div>
+                        </div>
+                    
+                </li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="comment-main-level">
+                        <div class="comments-avatar"><img src="Imagenes/KingEgipcio.png" alt=""/></div>
+                        <div class="comment-box">
+                            <div class="comment-head">
+                                <h6 class="comment-name"><a>EgipcioFlow</a></h6>
+                                <span>10 minutes ago</span>
+                                <i class="fa fa-reply"></i>
+                                <i class="fa fa-heart"></i>
+                            </div>  
+                            <div class="comment-content">
+                               Me pueden agregar como su desarrollador soy super bueno con el lenguaje de programacion java.                              
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <form>
+<textarea name="comment" rows=5 cols=40>
+Introduzca aquí sus comentarios
+</textarea>
+</form>
+        </div>
+        
+    </body>
+</html>

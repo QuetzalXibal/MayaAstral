@@ -1,0 +1,143 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 1/04/2020, 12:08:14 AM
+    Author     : PandaKush
+*/
+body{
+background: url(../Imagenes/Fondo.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.login-box {
+  width: 320px;
+  height: 420px;
+  background: #147b81;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box; 
+  padding: 30px 30px;
+  border-radius:10px;
+  margin-top:50px;
+}
+
+.login-box .avatar {
+  width: 225px;
+  height: 175px;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  left: calc(50% - 110px);
+}
+
+.login-box h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  position: absolute;
+  top: 170px;
+  left: 100px;
+  text-align: center;
+  font-size: 22px;
+  
+}
+
+.login-box label.correo {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  font-weight: bold;
+  display: block;
+}
+.login-box label.password {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 260px;
+  left: 20px;
+  font-weight: bold;
+  display: block;
+}
+
+.login-box input.EnterCorreo {
+  position: absolute;
+  top: 200px;
+  left: 20px;
+  margin-bottom: 20px;
+}
+.login-box input.EnterPassword {
+  position: absolute;
+  top: 260px;
+  left: 20px;
+  margin-bottom: 20px;
+}
+.login-box input[type="text"], .login-box input[type="password"]{
+  outline: none;
+  padding: 10px;
+  display: block;
+  width: 80%;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+.login-box input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  background: #0098cb;
+  width: 120px;
+  height: 35px;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+  
+  
+}
+.login-box input[type="submit"]:hover {
+  background-color: #00b8eb;
+}
+.login-box .boton{ 
+  position: absolute;
+  top: 322px;
+  left: 99px  
+}
+.login-box a.a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+  position: absolute;
+  top: 360px;
+  left: 20px;
+}
+.login-box a.b {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 20px;
+  color: darkgrey;
+  position: absolute;
+  top: 380px;
+  left: 20px;
+}
+
+.login-box a:hover {
+  color: #fff;
+}

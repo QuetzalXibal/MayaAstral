@@ -1,0 +1,26 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 3/05/2020, 05:47:52 PM
+    Author     : Nadia
+*/
+body{
+background: url(../Imagenes/hacker.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#bg {
+position: fixed;
+z-index: -1;
+top: 0;
+left: 0;
+width: 100%;
+}
+.box imput.loca{
+    background: transparent;
+    }

@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30/04/2020, 01:56:01 PM
+    Author     : Arturo
+*/
+body{
+background: url(../Imagenes/Fondo.jpg) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+/* Input Forms*/
+input[type="text"], input[type="password"]{
+  outline: none;
+  padding: 12px;
+  display: block;
+  width: 80%;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  margin: 20px auto;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  background: #0098cb;
+  width: 50%;
+  margin: 20px auto;
+  margin-top: 0;
+  border: 0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+input[type="submit"]:hover {
+  background-color: #00b8eb;
+}
+
+/* Header */
+header {
+  border-bottom: 2px solid #eee;
+  padding: 20px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+header a {
+  text-decoration: none;
+  color: #333;
+}
+.a.a {
+  text-decoration: none;
+  color: rgb(0, 253, 13);
+}
+.a:hover {
+  color: #fff;
+}
+.login-box {
+  width: 320px;
+  height: 520px;
+  background: #147b81;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-sizing: border-box; 
+  padding: 30px 10px;
+  border-radius:10px;
+  margin-top:50px;
+}
